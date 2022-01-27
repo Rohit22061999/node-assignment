@@ -1,0 +1,18 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "jeffpackage-xyz": "^1.1.2",
+    "nodemon": "^2.0.15",
+    "slayerslayer": "^1.0.0",
+    "slayerslayer-calc": "^1.0.0"
+  }
+}

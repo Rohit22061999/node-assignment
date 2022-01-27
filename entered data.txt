@@ -1,0 +1,66 @@
+ <div className="app1">
+                    <h2 className="text-center"> Entered Data </h2>
+
+
+                    <div className="App text-center">
+                        <table className="w-100 m-auto" border="3">
+                            <thead>
+                                <tr>
+                                    <td >Sr.No</td>
+                                    <td>First Name</td>
+                                    <td>Middle Name</td>
+                                    <td>Last Name</td>
+                                    <td>Age</td>
+                                    <td>Gender</td>
+                                    <td>Contact No.</td>
+                                    <td>Alternate Contact No.</td>
+                                    <td>Email Id</td>
+                                    <td>Alternate Email Id</td>
+                                    <td>Password</td>
+                                    <td>Confim Password</td>
+                                    <td>Location</td>
+                                    <td>Address</td>
+                                    <td>10th</td>
+                                    <td>12th</td>
+                                    <td>B.E</td>
+                                    <td>Branch</td>
+                                    <td>Passout</td>
+                                    <td>Certification</td>
+                                    <td>Qualification</td>
+                                    <td>Resume</td>
+                                     
+                                </tr>
+                            </thead>
+                            <tbody>
+                            {this.state.arr.map((task, index) => {
+                              return <tr key={index}>
+                                    <td>{index + 1}</td>  
+                                    <td>{task.fname}</td>
+                                    <td>{task.mname}</td>
+                                    <td>{task.lname}</td>
+                                    <td>{task.age}</td>
+                                    <td>{task.gender}</td>
+                                    <td>{task.mobile}</td>
+                                    <td>{task.mobile2}</td>
+                                    <td>{task.email}</td>
+                                    <td>{task.email2}</td>
+                                    <td>{task.password}</td>
+                                    <td>{task.cpassword}</td>
+                                    <td>{task.location}</td>
+                                    <td>{task.address}</td>
+                                    <td>{task.tenth}</td>
+                                    <td>{task.twelveth}</td>
+                                    <td>{task.B_E}</td>
+                                    <td>{task.branch}</td>
+                                    <td>{task.passout}</td>
+                                    <td>{task.certification}</td>
+                                    <td>{task.qualification}</td>
+                                    <td>{task.resume}</td>
+                                   
+                                   </tr>
+                             })}
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>hellohello
